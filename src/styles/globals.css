@@ -1,7 +1,5 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-
+  --c-white: #fff;
   --c-red-wine: #992d26;
   --c-golden-hour: #ea9f2b;
 }

@@ -1,10 +1,12 @@
 .page {
   font-family: var(--font-bricolage-grotesque);
 
-  min-height: 100vh;
+  min-height: 60vh;
+  min-height: 60svh;
   display: grid;
   place-content: center;
   text-align: center;
+  padding: 10vw;
 }
 
 .heading {
@@ -13,5 +15,5 @@
 
 .highlight {
   font-weight: 100;
-  color: white;
+  color: var(--c-white);
 }

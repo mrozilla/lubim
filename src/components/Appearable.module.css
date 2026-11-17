@@ -1,0 +1,14 @@
+.container {
+  --appearable-duration: 1500ms;
+
+  opacity: 0;
+  transform: scale(0.9);
+  transition:
+    opacity var(--appearable-duration),
+    transform var(--appearable-duration);
+}
+
+.visible {
+  opacity: 1;
+  transform: scale(1);
+}
