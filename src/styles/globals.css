@@ -1,7 +1,12 @@
 :root {
   --c-white: #fff;
+  --c-cream: #fffbca;
+  --c-morning-sky: #83c2c7;
   --c-red-wine: #992d26;
   --c-golden-hour: #ea9f2b;
+  --c-moss-green: #3f5a38;
+  --c-ripe-orange: #e5733a;
+  --c-deep-sea: #00355b;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -40,4 +45,24 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.red-wine {
+  background-color: var(--c-red-wine);
+  color: var(--c-golden-hour);
+}
+
+.morning-sky {
+  background-color: var(--c-morning-sky);
+  color: var(--c-deep-sea);
+}
+
+.deep-sea {
+  background-color: var(--c-deep-sea);
+  color: var(--c-golden-hour);
+}
+
+.highlight {
+  font-weight: 100;
+  color: var(--c-white);
 }

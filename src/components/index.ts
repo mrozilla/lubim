@@ -1,2 +1,2 @@
 export * from "./Appearable";
-export * from "./Heading";
+export * from "./Text";
